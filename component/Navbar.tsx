@@ -49,14 +49,23 @@ export const Navbar: React.FC<NavbarProps> = ({ onBookClick }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           {/* Zone 1: Single text element wordmark as per Top Bar Contract */}
-          <div className='flex flex-row items-center gap-4 justify-center'>
+          <div className='flex flex-row items-center gap-2 md:gap-4 justify-center'>
             <img className='rounded-full  w-15 h-15  ' src="/logo.png" alt="logo" />
-<a
+          <a
             href="#home"
-            className="text-lg sm:text-xl font-bold tracking-tight text-white hover:text-amber-400 transition-colors shrink-0"
+            className="hidden md:block text-lg sm:text-xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-white via-slate-100 to-amber-200 shrink-0"
           >
             Babba International Group India
           </a>
+          <a 
+          className="md:hidden text-lg sm:text-xl font-bold tracking-tight text-white hover:text-amber-400 transition-colors flex flex-col"
+          href="#home">
+              <p>
+            Babba International 
+          </p>
+          <p className='-translate-y-2'>Group India</p>
+          </a>
+          
           </div>
           
 
@@ -92,10 +101,10 @@ export const Navbar: React.FC<NavbarProps> = ({ onBookClick }) => {
           </div>
 
           {/* Mobile hamburger button */}
-          <div className="flex items-center gap-2 sm:hidden">
+          <div className=" flex items-center gap-2 sm:hidden">
             <button
               onClick={onBookClick}
-              className="px-3 py-1.5 text-xs font-semibold text-slate-950 bg-amber-400 rounded transition-colors"
+              className="hidden px-3 py-1.5 text-xs font-semibold text-slate-950 bg-amber-400 rounded transition-colors"
             >
               Consult
             </button>
