@@ -11,6 +11,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenLegal }) => {
     { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
     { name: 'Services', href: '#services' },
+        { name: 'Testimonials', href: '#testimonials' },
     { name: 'Why Us', href: '#why-us' },
     { name: 'Contact', href: '#contact' },
   ];

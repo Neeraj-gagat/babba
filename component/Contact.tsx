@@ -170,18 +170,18 @@ export const Contact: React.FC<ContactProps> = ({ selectedService }) => {
               </div>
             </div>
 
-            {/* Visual Location Accent Card */}
+            {/* Visual Location Accent Card - Authentic Chandigarh Office Reception */}
             <div className="rounded-2xl overflow-hidden border border-slate-800/90 relative aspect-[16/9]">
               <img
-                src="/chandigarh_city_architecture_1790412061997.jpg"
-                alt="Chandigarh Sector 17 commercial district architecture and green boulevard"
+                src="/rec.jpg"
+                alt="Babba International Group India Chandigarh office reception with glowing BIG emblem and waiting lounge"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/40 to-transparent" />
               <div className="absolute bottom-4 left-4 right-4 text-xs text-slate-300">
-                <span className="font-semibold text-white block mb-0.5">Sector 17C Commercial District</span>
-                <span className="text-slate-400">Centrally situated in Chandigarh&apos;s primary commercial center</span>
+                <span className="font-semibold text-white block mb-0.5">Chandigarh Reception & Advisory Suite</span>
+                <span className="text-slate-400">SCO 125-126, 3rd Floor, Sector 17C · Welcoming environment for in-person advisory</span>
               </div>
             </div>
 

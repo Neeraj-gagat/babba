@@ -11,8 +11,8 @@ export const About: React.FC = () => {
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-2xl overflow-hidden border border-slate-700/60 shadow-2xl shadow-black/40 bg-slate-800">
               <img
-                src="/about_consultation_office_1790412049245.jpg"
-                alt="Consultation desk with global map and international documentation in Chandigarh office"
+                src="/cabin.jpg"
+                alt="Babba International Group India executive consultation office in Sector 17C Chandigarh"
                 className="w-full h-auto object-cover aspect-[4/3] lg:aspect-[3/4]"
                 referrerPolicy="no-referrer"
               />

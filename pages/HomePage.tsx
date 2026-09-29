@@ -1,5 +1,4 @@
 "use client"
-
 /**
  * @license
  * SPDX-License-Identifier: Apache-2.0
@@ -11,6 +10,7 @@ import { Hero } from '../component/Hero';
 import { About } from '../component/About';
 import { Services } from '../component/Services';
 import { WhyUs } from '../component/WhyUs';
+import { Testimonials } from '../component/Testimonials';
 import { Contact } from '../component/Contact';
 import { Footer } from '../component/Footer';
 import { LegalModal, LegalModalType } from '../component/LegalModal';
@@ -63,13 +63,16 @@ export default function App() {
         {/* SECTION 4 — WHY CHOOSE US + PROCESS */}
         <WhyUs />
 
-        {/* SECTION 5 — CONTACT / CTA */}
+        {/* SECTION 5 — TESTIMONIALS & CLIENT VISA JOURNEYS */}
+        <Testimonials />
+
+        {/* SECTION 6 — CONTACT / CTA */}
         <Contact 
           selectedService={selectedService} 
         />
       </main>
 
-      {/* SECTION 6 — FOOTER */}
+      {/* FOOTER */}
       <Footer onOpenLegal={(type) => setActiveLegalModal(type)} />
 
       {/* Legal Dialog Modal */}
